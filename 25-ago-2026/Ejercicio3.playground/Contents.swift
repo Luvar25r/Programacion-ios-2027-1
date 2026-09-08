@@ -1,1 +1,3 @@
-let emoji = "
+let emoji = "😀"
+
+print(Int.emoji)
