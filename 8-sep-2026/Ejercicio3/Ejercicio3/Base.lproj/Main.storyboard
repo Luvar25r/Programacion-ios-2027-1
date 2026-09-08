@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ejercicio3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jimmy Borghs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LtA-nR-zxe">
+                                <rect key="frame" x="142" y="73" width="109" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoys snorkeling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQX-Lw-qeJ">
+                                <rect key="frame" x="130.66666666666666" y="108" width="131.99999999999997" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loves to play boardgames" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6pf-T9-cTI">
+                                <rect key="frame" x="96.666666666666686" y="143" width="200" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learning iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gL0-WK-Rp4">
+                                <rect key="frame" x="147.66666666666666" y="180" width="98" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just start coin collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thv-ZX-Agw">
+                                <rect key="frame" x="103.66666666666669" y="223" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luis Vadillo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jll-jO-15e">
+                                <rect key="frame" x="153.66666666666666" y="268" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gL0-WK-Rp4" firstAttribute="top" secondItem="6pf-T9-cTI" secondAttribute="bottom" constant="16" id="1i6-sK-FKR"/>
+                            <constraint firstItem="thv-ZX-Agw" firstAttribute="top" secondItem="gL0-WK-Rp4" secondAttribute="bottom" constant="22" id="2Bc-rV-5zc"/>
+                            <constraint firstItem="jll-jO-15e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9uK-20-dUZ"/>
+                            <constraint firstItem="LtA-nR-zxe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="73" id="CCe-9L-4GI"/>
+                            <constraint firstItem="6pf-T9-cTI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CyU-fT-qkC"/>
+                            <constraint firstItem="6pf-T9-cTI" firstAttribute="top" secondItem="pQX-Lw-qeJ" secondAttribute="bottom" constant="14" id="DNg-Fw-KWy"/>
+                            <constraint firstItem="thv-ZX-Agw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JmQ-gb-oGg"/>
+                            <constraint firstItem="pQX-Lw-qeJ" firstAttribute="top" secondItem="LtA-nR-zxe" secondAttribute="bottom" constant="14" id="Kl1-j0-7oD"/>
+                            <constraint firstItem="pQX-Lw-qeJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YOM-sm-VwB"/>
+                            <constraint firstItem="LtA-nR-zxe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jqe-VP-ptM"/>
+                            <constraint firstItem="gL0-WK-Rp4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nLp-zI-Cta"/>
+                            <constraint firstItem="jll-jO-15e" firstAttribute="top" secondItem="thv-ZX-Agw" secondAttribute="bottom" constant="24" id="yDd-DQ-4dM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
